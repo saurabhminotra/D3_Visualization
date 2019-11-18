@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Saurabh Minotra">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A2_D3</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <script src="d3.v5.js"></script>
+
+</head>
+
+<body>
+    <p>Rad Visualization</p>
+
+    <form>
+        Please select a dataset file
+        <select id="mySelect" onchange="myFunction()">
+            <option value="1">Please Select</option>
+
+            <option value="winequality-red.csv">winequality-red.csv</option>
+            <!-- <option value="iris.csv">iris.csv</option> -->
+            <option value="winequality-white.csv">winequality-white.csv</option>
+        </select>
+    </form>
+
+    <br>
+    <hr>
+    <!--   Reference to create custom range slider 
+        https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_rangeslider-->
+    <div id="opacitycontainer" style="display: none">
+        <p>Slider Color Opacity Value: <span id="op"></span></p>
+        <input id="opRange" type="range" min="10" max="100" value="70" style="width: 250px; margin-right: 10px;" />
+
+    </div>
+    <hr>
+    <br><br>
+    <div class="canva">
+    </div>
+    <hr>
+
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+<script src="index.js"></script>
+<script src="style.css"></script>
+
+</html>

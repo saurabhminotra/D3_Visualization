@@ -1,0 +1,41 @@
+/*Reference ECMM6010 course sem1*/
+ 
+body{
+      border: solid rgb(199, 198, 198);
+     font-size:16px;
+     max-width:1024px;
+     margin-left: 20%;
+	 font-weight:bold;
+} 
+/* ========================= */
+/*Define font family for all the headers, paragraphs */
+
+p{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+hr{
+  width:100%;
+  border-top:solid #edeaea thin;
+  border-bottom:solid #edeaea thin;
+}
+
+
+
+/*Reference Udemy chapter 27*/
+div.tooltip {
+  position: absolute;
+  text-align:left;
+  width:200px;
+  height:300px;
+  padding:2px;
+  font: 12px Helvetica, sans-serif;
+  font-weight: bold; 
+  background:#b8b9b9;
+  color:rgb(20, 19, 19);
+  border:0px;
+  border-radius:4px;
+  pointer-events: none;
+  
+}
+
+ 
